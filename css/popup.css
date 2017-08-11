@@ -1,0 +1,36 @@
+body
+{
+    width: 300px;
+}
+#messageList
+{
+    /*width: 500px;*/
+    text-align: center;
+}
+
+#messageList div
+{
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+label
+{
+    padding: 0em 1em 0em 1em;
+    display: inline-block;
+    text-align: right;
+    width: 20px;
+}
+
+.quickchat /* the inputs */
+{
+    /*display: inline-block;*/
+}
+
+#updateDiv, #info
+{
+    text-align: center;
+}
+#info
+{
+    
+}

@@ -1,0 +1,16 @@
+#quickchatBar div
+{
+    display: inline-block;
+}
+
+.quickchatButton
+{
+    padding: 0em 0.4em 0em 0.4em;
+    float: right;
+}
+
+#quickchatLabel
+{
+    padding: 0em 0em 0em 0.5em;
+    float: left;
+}
