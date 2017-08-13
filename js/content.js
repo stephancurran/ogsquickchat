@@ -92,7 +92,7 @@ function injectQuickchat()
 
     var labelDiv = document.createElement("div"); // label for QuickChat bar
     labelDiv.id = quickchatLabelId;
-    labelDiv.innerHTML = quickchatLabel;
+    labelDiv.textContent = quickchatLabel;
 
     quickChatBar.appendChild(labelDiv);
 
@@ -104,7 +104,7 @@ function injectQuickchat()
         var div = document.createElement("div");
         div.id = qc_prefix + i;
         div.className = qc_prefix;
-        div.innerHTML = i + 1;
+        div.textContent = i + 1;
 
         quickChatBar.appendChild(div);
     }

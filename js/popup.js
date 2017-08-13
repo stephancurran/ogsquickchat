@@ -82,7 +82,7 @@ function createUI(msgs)
     {
         var label = document.createElement("label");
         label.htmlFor = key;
-        label.innerHTML = inputCount;
+        label.textContent = inputCount;
 
         var input = document.createElement("input");
         input.type = "text";
